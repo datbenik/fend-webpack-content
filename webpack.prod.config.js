@@ -2,6 +2,7 @@ const path = require("path")
 const webpack = require("webpack")
 const HtmlWebpackPlugin = require("html-webpack-plugin")
 module.exports = {
+	mode: 'production',
 	entry: './src/client/index.js',
     module: {
             rules: 
